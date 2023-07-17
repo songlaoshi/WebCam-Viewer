@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1900</width>
-    <height>920</height>
+    <height>930</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,14 +29,17 @@
     <property name="title">
      <string>Phenocam01</string>
     </property>
-    <widget class="QGraphicsView" name="graphicsView">
+    <widget class="QLabel" name="label_image1">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>20</y>
-       <width>432</width>
-       <height>320</height>
+       <width>451</width>
+       <height>391</height>
       </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
      </property>
     </widget>
    </widget>
@@ -55,14 +58,17 @@
     <property name="title">
      <string>Phenocam02</string>
     </property>
-    <widget class="QGraphicsView" name="graphicsView_image2">
+    <widget class="QLabel" name="label_image2">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>20</y>
-       <width>432</width>
-       <height>320</height>
+       <width>451</width>
+       <height>391</height>
       </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
      </property>
     </widget>
    </widget>
@@ -73,7 +79,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>440</y>
+      <y>460</y>
       <width>471</width>
       <height>421</height>
      </rect>
@@ -81,14 +87,17 @@
     <property name="title">
      <string>Phenocam03</string>
     </property>
-    <widget class="QGraphicsView" name="graphicsView_image3">
+    <widget class="QLabel" name="label_image3">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>30</y>
-       <width>432</width>
-       <height>320</height>
+       <x>10</x>
+       <y>20</y>
+       <width>451</width>
+       <height>391</height>
       </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
      </property>
     </widget>
    </widget>
@@ -99,7 +108,7 @@
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>440</y>
+      <y>460</y>
       <width>471</width>
       <height>421</height>
      </rect>
@@ -107,69 +116,93 @@
     <property name="title">
      <string>Phenocam04</string>
     </property>
-    <widget class="QGraphicsView" name="graphicsView_image4">
+    <widget class="QLabel" name="label_image4">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>30</y>
-       <width>432</width>
-       <height>320</height>
+       <x>10</x>
+       <y>20</y>
+       <width>451</width>
+       <height>391</height>
       </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
      </property>
     </widget>
    </widget>
-   <widget class="QGraphicsView" name="graphicsView_gcc1">
+   <widget class="QGroupBox" name="groupBox_5">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
       <x>1010</x>
-      <y>20</y>
-      <width>860</width>
-      <height>200</height>
+      <y>10</y>
+      <width>871</width>
+      <height>871</height>
      </rect>
     </property>
+    <property name="title">
+     <string>Phenocam04</string>
+    </property>
+    <widget class="QLabel" name="label_gcc1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>851</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_gcc2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>851</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_gcc3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>851</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_gcc4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>650</y>
+       <width>851</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>1010</x>
-      <y>240</y>
-      <width>860</width>
-      <height>200</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>1010</x>
-      <y>470</y>
-      <width>860</width>
-      <height>200</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>1010</x>
-      <y>700</y>
-      <width>860</width>
-      <height>200</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-   </widget>
+   <zorder>groupBox_5</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>groupBox_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
